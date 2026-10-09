@@ -1,2 +1,14 @@
+[project]
+name = "manga-api"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.143.0",
+    "uvicorn[standard]==0.54.0",
+    "requests==2.34.2",
+    "beautifulsoup4==4.15.0",
+    "curl-cffi==0.16.3",
+]
+
 [tool.vercel]
 entrypoint = "api:app"
